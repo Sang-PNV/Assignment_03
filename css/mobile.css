@@ -1,0 +1,36 @@
+@media screen and (max-width : 576px){
+    #banner h1{
+        font-size: 30px;
+    }
+    #banner span{
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .nav-item{
+        padding: 10px 10px;
+        height: 40px;
+    }
+    
+    #job-info .job-info-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .certificate{
+        grid-template-columns: 1fr;
+    }
+    .certificate-item.item1{
+        border-right: none;
+    }
+    .project-item{
+        margin-bottom: 15px;
+    }
+    .project-item h4{
+        text-align: center;
+    }
+    .project-info{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}

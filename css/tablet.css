@@ -1,0 +1,42 @@
+@media screen and (max-width : 992px){
+    #target, #personal-info{
+        padding: 25px 50px;
+    }
+    #target h1, #personal-info h1{
+        font-size: 30px;
+    }
+    .job-info-item .job-icon{
+        font-size: 30px;
+        text-align: right;
+    }
+    .project-item h4{
+        padding: 10px 0px;
+        font-size: 20px;
+    }
+    .project{
+        font-size: 15px;
+    }
+
+}
+@media screen and (max-width : 768px){
+    #target, #personal-info{
+        padding: 20px 30px;
+    }
+    #job-info .job-info-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .certificate img{
+        width: 90%;
+    }
+    .certificate-item.item1{
+        border-right: #d6c08d 1px solid;
+    }
+    .certificate-item.item1 div{
+        padding-right: 80px;
+        border-right: none;
+    }
+    .project-info{
+        display: inline-block;
+    }
+}
